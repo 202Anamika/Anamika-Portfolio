@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head> 
+  <title>Anamika Portfolio</title>
+  <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+  <main class="main">
+    <nav class='navBar'>
+      <h1>Anamika Portfolio</h1>
+      <div class='navigationMenu'>
+        <a href='#aboutMe'>About Me</a>
+        <a href='#skills'>Skills</a>
+        <a href='#projects'>Projects</a>
+        <a href='#contactForm'>Let's Connect</a>
+      </div>
+    </nav>
+  
+  <section class='heroSection'>
+    <img class='profileImage' src="https://media.istockphoto.com/id/1451456915/photo/female-freelance-developer-coding-and-programming-coding-on-two-with-screens-with-code.jpg?s=2048x2048&w=is&k=20&c=PSG7U68t3dz6BqH2YbvW5zXYCXcOrhdbaWZJTyyprhU=" alt="Female coder">
+    <div class='herosectionDetails'>
+      <h1>Anamika</h1>
+      <h3>Front-End Developer</h3>
+      <h3>Salesforce Developer</h3>
+    </div>
+  </section>
+
+  <section class="aboutMe" id="aboutMe">
+    <h1>Career Objective</h1>
+    <p>
+     I am Passionate software developer with knowledge of Problem-solving. I love to explore various
+      technologies and Framework to develop efficient Project. And constantly Enhancing my skills and
+      staying up-to-date with the latest advancement in the field of software Development. <br>
+      Seeking a challenging and rewarding opportunity with an organization which improve my skills
+      and utilizes/nurtures my technical and analytical skills in IT Sector.
+    </p>
+
+    <h2>Professional Experience</h2>
+
+    <h4>Capgemini (4-Months Training)</h4>
+    <h5>Salesforce Developer</h5>
+      <p>Developed the truck booking app using Salesforce, the feature of the apps are as follows:<br> 
+        The
+        truck can be booked any time by the customers, it also provides the monitoring features where
+        you can see all the history of payment and location of the trip.<br>
+        The app can be used by the truck driver, customers, and the owners of the truck. I was also
+        able to deliver this project on time.</p>
+
+    <h2>Certificate</h2>
+    <ul type="none">
+      <li>Salesforce Developer at Capgemini (Training)
+      </li>
+      <li>JAVA and DSA with System Design (By PW Skills on Going)</li>
+      <li>C-Language (Rajesh Jain Classes Pune)
+      </li>
+      <li>Frontend Development (Great Learning)</li>
+      <li> Soft Skills Training (Mahindra)
+      </li>
+      <li> Python for Beginner (Udemy)</li>
+
+    </ul>
+  </section>
+
+
+  <section class="skillsAndProjects">
+    <div class="skills" id="skills">
+      <h1 class="cardHeading">Skills</h1>
+      <img src="/Portfolio/images/HTML.png" title="HTML">
+      <img src="/Portfolio/images/CSS.png" title="CSS">
+      <img src="/Portfolio/images/JavaScript.png" title="JavaScript">
+      <img src="/Portfolio/images/Clang.png" title="C Language">
+      <img src="/Portfolio/images/C++.png" title="C++">
+      <img src="/Portfolio/images/JAVA.png" title="JAVA">
+      <img src="/Portfolio/images/Salesforce.png" title="Salesforce">
+      <img src="/Portfolio/images/bootstrap.png" title="GitHub">
+      <img src="/Portfolio/images/GitHub.png" title="GitHub">
+      <img src="/Portfolio/images/React.png" title="GitHub">
+      
+    </div>
+
+    <div class="projects" id="projects">
+      <h1 class="cardHeading">Projects</h1>
+
+      <div class="projectContainer">
+        <img src="/Portfolio/images/agri.png">
+        <div class="projectDescription">
+          <h4>Agriculture web application</h4>
+          <p>Using HTML, CSS, JavaScript, MYSQL </p>
+        </div>
+      </div>
+
+      <div class="projectContainer">
+        <img src="/Portfolio/images/food.png">
+        <div class="projectDescription">
+          <h4>Food Order Website</h4>
+          <p>Using HTML, CSS, JavaScript, MySQL, PHP</p>
+        </div>
+      </div>
+
+      <div class="projectContainer">
+        <img src="/Portfolio/images/myntra.png">
+        <div class="projectDescription">
+          <h4>Myntra Functional clone</h4>
+          <p>Using HTML, CSS, JavaScript, React</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class='contactForm' id='contactForm'>
+
+    <h1>Visit My Profile</h1>
+    <b><a href="https://www.linkedin.com/in/anamika-85697721a/" target="_blank">LinkedIn</a></b><br> 
+    <b><a href="https://github.com/202Anamika" target="_blank" >GitHub</a></b> <br>
+    <b><a href="http://www.instagram.com" target="_blank" >Instagram</a></b>
+
+    <h1>Let's Connect!</h2>
+    <div class='formGroup'>
+      <label for='name'>Enter Full Name</label><br/>
+      <input type='text' id='name' placeholder='Full Name'/>
+    </div>
+    <div class='formGroup'>
+      <label for='email'>Email</label><br/>
+      <input type='text' id='email' placeholder='Email'/>
+    </div>
+    <div class='formGroup'>
+      <label for='message'>Message</label><br/>
+      <textarea placeholder="Send some message!" id="message" name="w3review" rows="4" cols="50"></textarea>
+    </div>
+    <button class='submitButton' onClick={submit()}>Connect</button>
+  </section>
+</main> 
+<script src="script.js"></script>
+</body>
+</html>
